@@ -1,32 +1,12 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+### RepayRite - Mortgage Repayment Calculator
 
-Welcome,
+RepayRite is a Python-based mortgage repayment calculator designed to help users manage and better understand their loan repayment scenarios. With this tool, users can:
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+1. Calculate the current repayment schedule and estimate the overall redemption amount of their mortgage.
+2. Explore the impact of extra payments by seeing how additional contributions affect the monthly repayment and loan term.
+3. Evaluate refinancing options by simulating the effect of adjusting the interest rate on the loan term and total repayable amount.
 
-## Reminders
+The program utilises the following mortgage repayment formula to provide accurate calculations:
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+M = P * (r * (1 + r)**n) / ((1 + r)**n - 1)
 
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
